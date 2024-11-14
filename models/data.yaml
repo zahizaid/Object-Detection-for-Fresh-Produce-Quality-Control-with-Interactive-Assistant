@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['capsicum', 'carrot', 'cauliflower', 'cucumber', 'potato']
+
+roboflow:
+  workspace: sayuran2
+  project: sayuran-2.0
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sayuran2/sayuran-2.0/dataset/12
